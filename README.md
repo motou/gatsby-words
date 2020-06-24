@@ -1,28 +1,16 @@
 ![Gatsby Logo](https://github.com/vercel/vercel/blob/master/packages/frameworks/logos/gatsby.svg)
 
-# Gatsby Example
+# Gatsby App using JSON as data source
 
-This directory is a brief example of a [Gatsby](https://www.gatsbyjs.org/) app with [Serverless Functions](https://vercel.com/docs/v2/serverless-functions/introduction) that can be deployed with Vercel and zero configuration.
+This is a [Gatsby](https://www.gatsbyjs.org/) app with [Serverless Functions](https://vercel.com/docs/v2/serverless-functions/introduction) that can be deployed with Vercel and zero configuration.
 
-## Deploy Your Own
+## Deployment
 
-Deploy your own Gatsby project, along with Serverless Functions, with Vercel.
+_Live Demo: https://gatsby-words.motou.vercel.app/_
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/vercel/tree/master/examples/gatsby)
+### Deploying From Terminal
 
-_Live Example: https://gatsby.now-examples.now.sh_
-
-### How We Created This Example
-
-To get started with Gatsby on Vercel, you can use the [Gatsby CLI](https://www.gatsbyjs.org/docs/gatsby-cli/) to initialize the project:
-
-```shell
-$ gatsby new gatsby-site
-```
-
-### Deploying From Your Terminal
-
-You can deploy your new Gatsby project, along with [Serverless Functions](https://vercel.com/docs/v2/serverless-functions/introduction), with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
+It is possible to deploy the project using [Vercel CLI](https://vercel.com/download):
 
 ```shell
 $ vercel
